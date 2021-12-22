@@ -1,0 +1,138 @@
+
+
+body {
+ background-image: url('background.jpg');
+ min-height: calc(100vh - 148px - 200px);
+}
+
+body.contact {
+    background-image: none;
+    text-align: center;
+    background-color: black;
+    color: white; 
+    margin: auto;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase; 
+    padding: 50px
+   
+
+
+}
+#logo {
+    height:100px;
+    width:150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('911.jpg');
+}
+
+.car-2 {
+    background-image: url('vw.jpg');
+
+}
+
+.car-3 {
+    background-image: url('rx7.jpg');
+}
+
+.car-4 {
+    background-image: url('r32.jpg');
+
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+footer {
+    text-align: cen;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: white;
+    
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black; 
+
+}
+
+.footer .social a {
+    font-size: 24px; 
+    color: inherit; 
+    border: 1px solid black;
+    width: 40px;
+    height: 40px; 
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px; 
+    opacity: 0.75
+}
+
+.footer .social a:hover {
+    opacity: 0.9; 
+
+}
+
+.footer .copyright {
+    margin-top: 15px; 
+    text-align: center;
+}
